@@ -1,35 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>生日快乐！</title>
-    <style>
-        body {
-            background-color: #f9f9f9;
-            font-family: Arial, sans-serif;
-            text-align: center;
-        }
-        h1 {
-            color: #ff6a00;
-            margin-top: 100px;
-        }
-        p {
-            color: #333;
-            font-size: 18px;
-            margin-top: 30px;
-        }
-        .image {
-            margin-top: 50px;
-        }
-        .footer {
-            margin-top: 100px;
-            color: #777;
-            font-size: 14px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday!</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      text-align: center;
+    }
+    .birthday-message {
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      margin: 20% auto;
+      max-width: 400px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      color: #ff6f61;
+    }
+    p {
+      color: #333;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    .confetti {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      background-color: #ff6f61;
+      box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+      animation: confetti 1s infinite;
+    }
+    @keyframes confetti {
+      0% { transform: translateY(0) rotate(0deg); }
+      100% { transform: translateY(900px) rotate(360deg); }
+    }
+  </style>
 </head>
 <body>
+  <div class="birthday-message">
+    <h1>Happy Birthday!</h1>
+    <p>Dear friend, I hope this day brings you all the happiness and joy in the world. You are truly special and deserve the best. May all your dreams and wishes come true!</p >
+  </div>
+
+  <div class="confetti" style="top: 40%; left: 20%;"></div>
+  <div class="confetti" style="top: 30%; left: 50%;"></div>
+  <div class="confetti" style="top: 60%; left: 70%;"></div>
+  <div class="confetti" style="top: 70%; left: 40%;"></div>
+  <div class="confetti" style="top: 80%; left: 10%;"></div>
+  <div class="confetti" style="top: 50%; left: 80%;"></div>
+  <div class="confetti" style="top: 20%; left: 30%;"></div>
+  <div class="confetti" style="top: 90%; left: 60%;"></div>
+
     <h1>生日快乐！</h1>
     <p>亲爱的 [付子璇]，祝你生日快乐！</p>
     <img class="image" src="[插入一张生日图片的url]" alt="生日快乐">
